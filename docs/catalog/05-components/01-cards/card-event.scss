@@ -1,0 +1,59 @@
+.card-event {
+  transition: all 0.2s ease;
+  border: 1px solid #eee;
+  background: $color-white;
+  border-radius: 3px;
+  padding: $spacing;
+  font-family: $font-primary;
+  display: flex;
+  align-items: center;
+  box-shadow: $box-shadow;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-3px);
+    transition: all 0.2s ease;
+    box-shadow: $box-shadow--hover;
+  }
+
+  &__date {
+    width: 100px;
+    height: 100px;
+    background: $color-primary;
+    border-radius: 3px;
+    color: $color-white;
+    margin-right: $spacing--small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__month {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  &__day {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  &__title {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: $spacing--small;
+  }
+
+  &__place {
+    display: inline-block;
+    font-size: 17px;
+    margin-right: $spacing--small;
+  }
+
+  &__facebook {
+    font-size: 17px;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,53 @@
+/* Fonts */
+
+$font-primary: 'Muli', Helvetica, sans-serif;
+
+/* Fixed sizes */
+
+$header-height: 60px;
+
+/* Colors */
+
+$color-primary: #4d2482;
+$color-primary--light: #7f289e;
+
+$color-secondary: #1f3285;
+
+$color-white: #fff;
+$color-gray-light: #fafafa;
+$color-blue-light: #f7f9fb;
+$color-gray: #eee;
+$color-gray-dark: #838383;
+$color-black: #000;
+
+$color-gradient: linear-gradient(150deg, #ecf6fb 15%, #f5efff 70%, #f5e4fb 94%);
+
+
+/* Box-shadow */
+
+$box-shadow: rgba(34, 23, 99, 0.07) 0 7px 30px;
+$box-shadow--hover: rgba(25, 16, 74, 0.1) 0 7px 42px;
+
+$border-radius: 4px;
+
+/* Spacing */
+
+$spacing--smallest: 6px;
+$spacing--smaller: 12px;
+$spacing--small: 18px;
+$spacing: 24px;
+$spacing--large: 50px;
+$spacing--larger: 70px;
+$spacing--largest: 120px;
+
+/* Breakpoints */
+
+$desktop: 1024px;
+
+/* Widths and heights */
+
+$container: 1200px;
+$container--wide: 1500px;
+$container--narrow: 600px;
+
+$header-height: 71px;

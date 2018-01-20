@@ -1,0 +1,134 @@
+.block {
+  width: 100%;
+  padding-left: $spacing;
+  padding-right: $spacing;
+  display: block;
+  transition: 0.2s all ease;
+
+  &.--link:hover {
+    cursor: pointer;
+    transform: translateY(-$spacing--smallest);
+  }
+
+  &.--full {
+    width: 100%;
+    padding: 0;
+  }
+
+  &.--border-radius {
+    border-radius: $border-radius;
+  }
+
+  &.--box-shadow {
+    box-shadow: $box-shadow;
+  }
+
+  &.--mt {
+    margin-top: $spacing;
+  }
+
+  &.--mt-large {
+    margin-top: $spacing--large;
+  }
+
+  &.--mt-larger {
+    margin-top: $spacing--larger;
+  }
+
+  &.--mt-largest {
+    margin-top: $spacing--largest;
+  }
+
+  &.--mt-minus {
+    margin-top: -$spacing;
+  }
+
+  &.--mt-minus-large {
+    margin-top: -$spacing--large;
+  }
+
+  &.--mt-minus-larger {
+    margin-top: -$spacing--larger;
+  }
+
+  &.--mt-minus-largest {
+    margin-top: -$spacing--largest;
+  }
+
+  &.--mb {
+    margin-bottom: $spacing;
+  }
+
+  &.--mb-large {
+    margin-bottom: $spacing--large;
+  }
+
+  &.--mb-larger {
+    margin-bottom: $spacing--larger;
+  }
+
+  &.--mb-largest {
+    margin-bottom: $spacing--largest;
+  }
+
+  &.--mb-minus {
+    margin-bottom: -$spacing;
+  }
+
+  &.--mb-minus-large {
+    margin-bottom: -$spacing--large;
+  }
+
+  &.--mb-minus-larger {
+    margin-bottom: -$spacing--larger;
+  }
+
+  &.--mb-minus-largest {
+    margin-bottom: -$spacing--largest;
+  }
+
+  &.--pt {
+    padding-top: $spacing;
+  }
+
+  &.--pt-large {
+    padding-top: $spacing--large;
+  }
+
+  &.--pt-larger {
+    padding-top: $spacing--larger;
+  }
+
+  &.--pt-largest {
+    padding-top: $spacing--largest;
+  }
+
+  &.--pb {
+    padding-bottom: $spacing;
+  }
+
+  &.--pb-large {
+    padding-bottom: $spacing--large;
+  }
+
+  &.--pb-larger {
+    padding-bottom: $spacing--larger;
+  }
+
+  &.--bg-white {
+    background-color: $color-white;
+  }
+
+  &.--bg-primary {
+    background-color: $color-primary;
+  }
+
+  &.--bg-light {
+    background-color: $color-blue-light;
+  }
+
+  &.--bg-alt:nth-child(odd) {
+    background-color: $color-blue-light;
+  }
+
+}

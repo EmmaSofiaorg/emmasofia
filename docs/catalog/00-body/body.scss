@@ -1,0 +1,22 @@
+body {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: $font-primary;
+}
+
+a {
+  text-decoration: none;
+  color: $color-primary;
+  fill: $color-primary;
+
+  &:hover {
+    color: $color-primary--light;
+    fill: $color-primary--light;
+  }
+
+  &:active {
+    color: $color-primary--light;
+  }
+
+}

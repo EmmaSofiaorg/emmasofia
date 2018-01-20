@@ -1,0 +1,83 @@
+.button {
+  padding: $spacing--small $spacing;
+  margin-left: $spacing--small;
+  box-shadow: $box-shadow;
+  font-family: $font-primary;
+  text-transform: uppercase;
+  text-align: center;
+  outline: 0;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 300px;
+  border: 0;
+  background: $color-primary;
+  color: white;
+  transition: all 0.2s ease;
+
+  @media(min-width: $desktop) {
+    padding: $spacing--small $spacing;
+    font-size: 13px;
+  }
+
+  &:first-of-type {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  &:hover {
+    background: $color-primary--light;
+    box-shadow: $box-shadow--hover;
+    color: $color-white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  &[disabled] {
+    background-color: $color-gray;
+    color: $color-gray-dark;
+    box-shadow: none;
+    cursor: default;
+  }
+
+  &.--arrow:after {
+    transition: 0.2s ease;
+    content: '\2192';
+    margin-left: $spacing--smaller;
+  }
+
+  &.--arrow:hover:after {
+    margin-left: $spacing--small;
+  }
+
+  &.--small {
+    padding: 12px $spacing--small;
+  }
+
+  &.--large {
+    padding: $spacing $spacing--large;
+  }
+
+  &.--full {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  &.--white {
+    background: $color-white;
+    color: $color-primary;
+  }
+
+  &.--outline {
+    background: $color-white;
+    border: 2px solid $color-primary;
+    color: $color-primary;
+
+    &:hover {
+      background: $color-primary--light;
+      color: $color-white;
+      border: 2px solid $color-primary--light;
+    }
+  }
+}

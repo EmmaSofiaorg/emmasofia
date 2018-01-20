@@ -1,0 +1,15 @@
+.container {
+  max-width: $container;
+  margin: 0 auto;
+
+  &.--wide {
+    max-width: $container--wide;
+    margin: 0 auto;
+  }
+
+  &.--narrow {
+    max-width: $container--narrow;
+    margin: 0 auto;
+  }
+
+}

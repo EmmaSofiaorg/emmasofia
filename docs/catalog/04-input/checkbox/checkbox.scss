@@ -1,0 +1,100 @@
+.checkbox {
+  position: relative;
+  display: block;
+  padding-left: 2rem;
+  margin-bottom: $spacing--smaller;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: $font-primary;
+  color: $color-gray-dark;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  /**
+   * Elements
+   */
+
+  &__indicator {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 3px solid $color-gray;
+    line-height: 22px;
+    background-color: $color-white;
+    user-select: none;
+    text-align: center;
+    border-radius: 0;
+    transition: border 150ms;
+  }
+
+  & > input {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    vertical-align: middle;
+
+    &:checked ~ .checkbox__indicator {
+      border-color: $color-primary--light;
+      background: $color-primary--light;
+
+      &::before {
+        position: absolute;
+        top: 6px;
+        left: 3px;
+        display: inline-block;
+        width: 10px;
+        height: 9px;
+        border-bottom: 3px solid $color-white;
+        content: '';
+        transform: translateY(-50%) rotate(-45deg);
+      }
+
+      &::after {
+        position: absolute;
+        top: 7px;
+        left: 3px;
+        display: inline-block;
+        width: 11px;
+        height: 7px;
+        border-left: 3px solid $color-white;
+        content: '';
+        transform: translateY(-50%) rotate(-45deg);
+      }
+    }
+
+    &:hover ~ .hw-checkbox__indicator {
+      border: 3px solid $color-gray-dark;
+    }
+
+    &:focus ~ .hw-checkbox__indicator {
+      border: 3px solid $color-gray-dark;
+    }
+
+    &:disabled ~ .hw-checkbox__indicator {
+      border-color: $color-gray-light;
+      background: $color-gray-light;
+    }
+
+    &:disabled:checked ~ .hw-checkbox__indicator {
+      border-color: $color-gray-light;
+      background: $color-gray-light;
+    }
+  }
+
+  /**
+   * Modifiers
+   */
+
+  &.--horisontal {
+    display: inline-block;
+    margin-left: $spacing;
+    &.hw-text-small {
+      display: inline-block;
+    }
+  }
+}

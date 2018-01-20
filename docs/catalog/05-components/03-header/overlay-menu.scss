@@ -1,0 +1,45 @@
+.overlay-menu {
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: none;
+  background: $color-primary;
+  color: $color-white;
+  padding: $spacing;
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  transition: ease;
+  z-index: 998;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+
+  &__contents {
+    margin-top: $spacing;
+    width: 100%;
+    min-height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__nav-links {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__nav-link {
+    animation-name: slide-down;
+    animation-duration: 0.05s;
+    transition-timing-function: ease;
+    display: block;
+
+    & a {
+      color: $color-white;
+    }
+  }
+}

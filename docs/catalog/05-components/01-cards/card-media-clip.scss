@@ -1,0 +1,53 @@
+.card-media-clip {
+  transition: all 0.2s ease;
+  margin-bottom: $spacing;
+  background: $color-white;
+  border-radius: 3px;
+  padding: $spacing;
+  border-bottom: 1px solid #eee;
+  font-family: $font-primary;
+  display: flex;
+  align-items:flex-start;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &__logo {
+    margin-right: $spacing;
+
+    & img {
+      width: 50px;
+      box-shadow: $box-shadow;
+      border-radius: $border-radius;
+
+      @media(min-width: $desktop) {
+        width: 100px;
+      }
+    }
+  }
+
+  &__date {
+    font-size: 16px;
+    color: #949494;
+    margin-bottom: $spacing;
+    text-transform: capitalize;
+  }
+
+  &__title {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: $spacing--small;
+  }
+
+  &__ingress {
+    font-size: 20px;
+    color: #000;
+    display: none;
+    margin-bottom: $spacing--small;
+
+    @media(min-width: $desktop) {
+      display: block;
+    }
+  }
+}
