@@ -1,0 +1,51 @@
+.radio-tabs {
+  width: 100%;
+  position: relative;
+  height: 61px;
+  border-radius: $border-radius;
+
+  & input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: -9999;
+  }
+
+  &__item:first-child .radio-tabs__label {
+    border-radius: $border-radius 0px 0px $border-radius;
+    border: 2px solid $color-primary;
+  }
+
+  &__item:last-child .radio-tabs__label {
+    border-radius: 0px $border-radius $border-radius 0px;
+    border-bottom: 2px solid $color-primary;
+    border-top: 2px solid $color-primary;
+    border-left: 0px;
+  }
+
+  &__item {
+    float: left;
+    background: $color-white;
+
+    &:hover {
+      background: $color-primary--lighter;
+    }
+  }
+
+  &__label {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 2px solid $color-primary;
+    border-top: 2px solid $color-primary;
+    border-right: 2px solid $color-primary;
+    font-size: 1rem;
+    padding: $spacing--small $spacing;
+  }
+
+  & input:checked + .radio-tabs__label {
+    background: $color-primary;
+    color: $color-white;
+  }
+}

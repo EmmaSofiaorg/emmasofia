@@ -71,10 +71,20 @@ var settings = {
           src: 'catalog/04-input/checkbox/checkbox.md'
         },
         {
+          path: '/input',
+          title: 'Input',
+          src: 'catalog/04-input/input/input.md'
+        },
+        {
           path: '/radio-filter',
           title: 'Radio Filter',
           src: 'catalog/04-input/radio-filter/radio-filter.md'
-        }
+        },
+        {
+          path: '/radio-tabs',
+          title: 'Radio tabs',
+          src: 'catalog/04-input/radio-tabs/radio-tabs.md'
+        },
       ]
     },
     {
