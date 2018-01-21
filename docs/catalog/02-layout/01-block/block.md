@@ -45,8 +45,8 @@ A regular block always have padding left and right
 ### Block with background-color
 
 `--bg-primary`
-`--bg-paper`
 `--bg-light`
+`--bg-gradient`
 `--bg-white`
 `--bg-alt`
 
@@ -58,6 +58,12 @@ A regular block always have padding left and right
 
 ```html|span-3,plain,white
 <div class="block --bg-light">
+    This is a block with a light grey background
+</div>
+```
+
+```html|span-3,plain,white
+<div class="block --bg-gradient">
     This is a block with a light grey background
 </div>
 ```

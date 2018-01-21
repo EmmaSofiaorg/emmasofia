@@ -163,12 +163,20 @@
     padding-bottom: $spacing--larger;
   }
 
+  &.--pb-largest {
+    padding-bottom: $spacing--largest;
+  }
+
   &.--bg-white {
     background-color: $color-white;
   }
 
   &.--bg-primary {
     background-color: $color-primary;
+  }
+
+  &.--bg-gradient {
+    background-color: $color-gradient;
   }
 
   &.--bg-light {
