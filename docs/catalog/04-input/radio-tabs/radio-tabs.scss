@@ -1,8 +1,13 @@
 .radio-tabs {
   width: 100%;
+  display: flex;
   position: relative;
   height: 61px;
   border-radius: $border-radius;
+
+  &.--center {
+    justify-content: center;
+  }
 
   & input {
     position: absolute;
@@ -25,7 +30,6 @@
   }
 
   &__item {
-    float: left;
     background: $color-white;
 
     &:hover {
