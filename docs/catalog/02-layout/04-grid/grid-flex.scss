@@ -2,7 +2,7 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -0.5rem 0 -0.5rem;
+  margin: 0 -1rem 0 -1rem;
 
   &.--center {
     justify-content: center;
@@ -35,7 +35,7 @@
 
 .grid__item {
     box-sizing: border-box;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 1rem 0 1rem;
 
     &.--s-12 {
       flex-basis: 100%;
