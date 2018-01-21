@@ -2,7 +2,7 @@
   "name": "emmasofia",
   "description": "Emmasofia's styleguide",
   "author": "Leif Riksheim",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": "",
   "scripts": {
     "build": "webpack",
