@@ -1,5 +1,6 @@
 .button {
   padding: $spacing--small $spacing;
+  white-space: nowrap;
   margin-left: $spacing--small;
   box-shadow: $box-shadow;
   font-family: $font-primary;
