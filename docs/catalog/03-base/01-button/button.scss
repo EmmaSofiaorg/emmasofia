@@ -2,7 +2,7 @@
   padding: $spacing--small $spacing;
   white-space: nowrap;
   display: inline-block;
-  margin-left: $spacing--small;
+  margin-right: $spacing--small;
   box-shadow: $box-shadow;
   font-family: $font-primary;
   text-transform: uppercase;
@@ -22,9 +22,8 @@
     font-size: 13px;
   }
 
-  &:first-of-type {
+  &:last-of-type {
     margin-right: 0px;
-    margin-left: 0px;
   }
 
   &:hover {
