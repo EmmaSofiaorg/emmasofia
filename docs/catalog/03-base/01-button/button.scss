@@ -3,7 +3,7 @@
   white-space: nowrap;
   display: inline-block;
   margin-right: $spacing--small;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   box-shadow: $box-shadow;
   font-family: $font-primary;
   text-transform: uppercase;
@@ -25,6 +25,7 @@
 
   &:last-of-type {
     margin-right: 0px;
+    margin-bottom: 0px;
   }
 
   &:hover {
