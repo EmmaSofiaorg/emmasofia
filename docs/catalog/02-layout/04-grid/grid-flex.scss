@@ -98,7 +98,7 @@
     }
 
 
-    @media(min-width: $container) {
+    @media(min-width: $container--narrow) {
 
       &.--m-12 {
         flex-basis: 100%;
@@ -162,7 +162,7 @@
 
     }
 
-    @media(min-width: $container--wide) {
+    @media(min-width: $container) {
 
       &.--l-12 {
         flex-basis: 100%;
