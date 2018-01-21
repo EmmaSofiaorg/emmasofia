@@ -1,12 +1,5 @@
 .img {
   margin: 0;
   padding: 0;
-  background: $color-gray-light;
-
-  & img {
-    max-width: 100%;
-  }
-
-  & figcaption {
-  }
+  max-width: 100%;
 }
