@@ -110,6 +110,11 @@ var settings = {
           path: '/spinner',
           title: 'Spinner',
           src: 'catalog/05-components/04-spinner/spinner.md'
+        },
+        {
+          path: '/markdown',
+          title: 'Markdown',
+          src: 'catalog/05-components/05-markdown/markdown.md'
         }
       ]
     },
