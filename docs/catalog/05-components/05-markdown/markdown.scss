@@ -1,0 +1,14 @@
+.markdown {
+
+  & h1 {
+    margin-top: $spacing;
+  }
+
+  & h2 {
+    margin-top: $spacing-small;
+  }
+
+  & h3 {
+    margin-top: $spacing-smaller;
+  }
+}
