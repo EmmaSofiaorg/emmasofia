@@ -31,8 +31,8 @@ You can use the latest version of the styleguide in your testing or staging envi
 <link rel="stylesheet" href="https://unpkg.com/emmasofia@latest/main.css">
 ```
 
-Use `https://unpkg.com/emmasofia@{version-number}/main.css` instead of latest in production.
-This way you know that you won't have any breaking changes if the styleguide is updated.
+Use `https://unpkg.com/emmasofia@{version-number}/main.css` in production.
+Specifying the version number will make sure you don't have any breaking changes if the CSS is updated.
 
 ```code|span-6,plain
 <link rel="stylesheet" href="https://unpkg.com/emmasofia@1.0.0/main.css">
@@ -40,10 +40,10 @@ This way you know that you won't have any breaking changes if the styleguide is 
 
 #### Icons
 
-If you want to use icons, use font-awesome
+If you want to use icons, use [Font Awesome](https://fontawesome.com/icons?d=gallery)
 
 ```code|span-6
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 ```
 
 
