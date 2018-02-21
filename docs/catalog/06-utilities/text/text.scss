@@ -1,27 +1,27 @@
-.text-left {
+.--text-left {
   text-align: left;
 }
 
-.text-center {
+.--text-center {
   text-align: center;
 }
 
-.text-right {
+.--text-right {
   text-align: right;
 }
 
-.text-uppercase {
+.--text-uppercase {
   text-transform: uppercase;
 }
 
-.text-primary {
+.--text-primary {
   color: $color-primary;
 }
 
-.text-white {
+.--text-white {
   color: $color-white;
 }
 
-.text-black {
+.--text-black {
   color: $color-black;
 }

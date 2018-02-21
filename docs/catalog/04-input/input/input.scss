@@ -3,12 +3,13 @@
   box-shadow: 0;
   background: $color-white;
   outline: 0;
+  height: $spacing--large;
   border: 1px solid $color-primary--lighter;
   font-family: $font-primary, Helvetica, sans-serif;
-  padding: 12px;
+  padding: $spacing--small $spacing;
   display: inline-block;
 
   &:focus {
-    box-shadow: 0px 0px 0px 4px $color-primary--lighter;
+    box-shadow: 0px 0px 0px 2px $color-primary--lighter;
   }
 }

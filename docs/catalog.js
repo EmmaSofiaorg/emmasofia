@@ -31,22 +31,22 @@ var settings = {
         {
           path: '/block',
           title: 'Block',
-          src: 'catalog/02-layout/01-block/block.md'
+          src: 'catalog/02-layout/block/block.md'
         },
         {
           path: '/column',
           title: 'Column',
-          src: 'catalog/02-layout/02-column/column.md'
+          src: 'catalog/02-layout/column/column.md'
         },
         {
           path: '/container',
           title: 'Container',
-          src: 'catalog/02-layout/03-container/container.md'
+          src: 'catalog/02-layout/container/container.md'
         },
         {
           path: '/grid',
           title: 'Grid',
-          src: 'catalog/02-layout/04-grid/grid.md'
+          src: 'catalog/02-layout/grid/grid.md'
         }
       ]
     },
@@ -57,7 +57,7 @@ var settings = {
         {
           path: '/button',
           title: 'Button',
-          src: 'catalog/03-base/01-button/button.md'
+          src: 'catalog/03-base/button/button.md'
         }
       ]
     },
@@ -74,6 +74,11 @@ var settings = {
           path: '/input',
           title: 'Input',
           src: 'catalog/04-input/input/input.md'
+        },
+        {
+          path: '/subscribe',
+          title: 'Subscribe',
+          src: 'catalog/04-input/subscribe/subscribe.md'
         },
         {
           path: '/radio-filter',
@@ -94,27 +99,32 @@ var settings = {
         {
           path: '/cards',
           title: 'Cards',
-          src: 'catalog/05-components/01-cards/cards.md'
+          src: 'catalog/05-components/cards/cards.md'
         },
         {
           path: '/hero',
           title: 'Hero',
-          src: 'catalog/05-components/02-hero/hero.md'
+          src: 'catalog/05-components/hero/hero.md'
         },
         {
           path: '/header',
           title: 'Header',
-          src: 'catalog/05-components/03-header/header.md'
+          src: 'catalog/05-components/header/header.md'
+        },
+        {
+          path: '/footer',
+          title: 'Footer',
+          src: 'catalog/05-components/footer/footer.md'
         },
         {
           path: '/spinner',
           title: 'Spinner',
-          src: 'catalog/05-components/04-spinner/spinner.md'
+          src: 'catalog/05-components/spinner/spinner.md'
         },
         {
           path: '/markdown',
           title: 'Markdown',
-          src: 'catalog/05-components/05-markdown/markdown.md'
+          src: 'catalog/05-components/markdown/markdown.md'
         }
       ]
     },
@@ -124,7 +134,7 @@ var settings = {
         {
           path: '/text',
           title: 'Text',
-          src: 'catalog/06-utilities/01-text/text.md'
+          src: 'catalog/06-utilities/text/text.md'
         }
       ]
     }
