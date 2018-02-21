@@ -141,14 +141,12 @@ var settings = {
   ]
 };
 
+if (window.location.hostname === 'localhost') {
+  settings.styles.push('main.css');
+} else {
+  settings.styles.push('https://unpkg.com/emmasofia@latest/main.css');
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-
-  if (window.location.hostname === 'localhost') {
-    settings.styles.push('main.css');
-  } else {
-    settings.styles.push('https://unpkg.com/emmasofia@latest/main.css');
-  }
-
   Catalog.render(settings, document.getElementById('catalog'));
-
 });
