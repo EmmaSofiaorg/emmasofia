@@ -21,7 +21,7 @@ var settings = {
         {
           path: '/',
           title: 'Getting started',
-          src: 'catalog/01-intro/01-getting-started.md',
+          src: 'catalog/01-intro/getting-started.md',
         },
       ]
     },
