@@ -1,0 +1,46 @@
+.header {
+  
+  &__hamburger-menu-checkbox {
+    display: none;
+  }
+
+  &__hamburger-menu-checkbox:checked ~ .overlay-menu {
+    display: block;
+  }
+
+  &__hamburger-menu-checkbox:checked ~ .header__hamburger-menu > div {
+    background-color: $color-white;
+  }
+
+  &__hamburger-menu-checkbox:checked ~ .header__hamburger-menu > div:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  &__hamburger-menu-checkbox:checked ~ .header__hamburger-menu > div:nth-child(2) {
+    opacity: 0;
+  }
+
+  &__hamburger-menu-checkbox:checked ~ .header__hamburger-menu > div:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+  &__hamburger-menu {
+    position: absolute;
+    z-index: 999;
+    cursor: pointer;
+    width: 25px;
+    height: 20px;
+    z-index: 999;
+    top: $spacing;
+    right: $spacing;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    & > div {
+      height: 2px;
+      background-color: $color-primary;
+      transition: 0.5s;
+    }
+  }
+}

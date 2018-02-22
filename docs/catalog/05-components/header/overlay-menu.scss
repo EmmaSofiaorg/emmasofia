@@ -37,6 +37,7 @@
     animation-duration: 0.05s;
     transition-timing-function: ease;
     display: block;
+    cursor: pointer;
 
     & a {
       color: $color-white;
