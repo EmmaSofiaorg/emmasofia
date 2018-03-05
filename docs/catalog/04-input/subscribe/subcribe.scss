@@ -39,7 +39,7 @@
     position: relative;
     display: block;
     width: 100%;
-    background: $color-primary;
+    background: linear-gradient(45deg, $color-primary, $color-primary--light);
     padding: 0 $spacing;
     white-space: nowrap;
     box-shadow: $box-shadow;
@@ -69,11 +69,11 @@
     }
 
     &:hover {
-      background-color: $color-primary--light;
+      background: linear-gradient(45deg, $color-primary, $color-primary--light);
     }
 
     &:active {
-      background-color: $color-primary;
+      background: linear-gradient(45deg, $color-primary, $color-primary--light);
     }
   }
 }
