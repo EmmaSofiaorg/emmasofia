@@ -31,7 +31,7 @@
   &__wrapper {
     float: left;
     width: 100%;
-    max-width: $container;
+    max-width: $container--wide;
     height: calc(100% + 50px);
     margin: 0 auto;
     z-index: 1;

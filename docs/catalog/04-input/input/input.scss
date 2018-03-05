@@ -10,6 +10,7 @@
   display: inline-block;
 
   &:focus {
-    box-shadow: 0px 0px 0px 2px $color-primary--lighter;
+    box-shadow: $box-shadow--hover;
+    border-color: $color-primary--light;
   }
 }
