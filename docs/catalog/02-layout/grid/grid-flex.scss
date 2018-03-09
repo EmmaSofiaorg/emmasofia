@@ -37,7 +37,7 @@
   }
 
   &.--s-normal {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   @media(min-width: $container--narrow) {
@@ -46,7 +46,7 @@
     }
 
     &.--m-normal {
-      flex-direction: column;
+      flex-direction: row;
     }
   }
 
@@ -56,7 +56,7 @@
     }
 
     &.--l-normal {
-      flex-direction: column;
+      flex-direction: row;
     }
   }
 }
