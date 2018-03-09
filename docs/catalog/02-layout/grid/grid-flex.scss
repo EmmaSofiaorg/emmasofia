@@ -31,6 +31,38 @@
   &.--equal .grid__item {
     display: flex;
   }
+
+  &.--reversed {
+    flex-direction: row-reverse;
+  }
+
+  &.--s-reversed {
+    flex-direction: row-reverse;
+  }
+
+  &.--s-normal {
+    flex-direction: row;
+  }
+
+  @media(min-width: $container--narrow) {
+    &.--m-reversed {
+      flex-direction: row-reverse;
+    }
+
+    &.--m-normal {
+      flex-direction: row;
+    }
+  }
+
+  @media(min-width: $container) {
+    &.--l-reversed {
+      flex-direction: row-reverse;
+    }
+
+    &.--l-normal {
+      flex-direction: row;
+    }
+  }
 }
 
 .grid__item {

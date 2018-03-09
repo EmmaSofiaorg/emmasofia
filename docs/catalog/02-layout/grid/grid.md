@@ -149,3 +149,23 @@ You can put modifiers on the `grid` to decide how all the `grid__item`'s will be
     </div>
 </div>
 ```
+
+## Ordering
+
+`grid --s-reversed` reverses the order of the grid.
+`grid --m-normal` defaults the order of the grid.
+
+```html|span-5,plain,white
+<div class="grid --s-reversed --m-normal --l-reversed">
+    <div class="grid__item --s-6">
+      <div class="block --bg-light --pt --pb">
+        1
+      </div>
+    </div>
+    <div class="grid__item --s-6">
+      <div class="block --bg-light --pt --pb">
+        2
+      </div>
+    </div>
+</div>
+```

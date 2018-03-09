@@ -71,6 +71,11 @@ var settings = {
           src: 'catalog/04-input/checkbox/checkbox.md'
         },
         {
+          path: '/checkbox-filter',
+          title: 'Checkbox Filter',
+          src: 'catalog/04-input/checkbox-filter/checkbox-filter.md'
+        },
+        {
           path: '/input',
           title: 'Input',
           src: 'catalog/04-input/input/input.md'
