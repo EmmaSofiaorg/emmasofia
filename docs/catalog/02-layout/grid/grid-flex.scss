@@ -32,35 +32,31 @@
     display: flex;
   }
 
-  &.--reversed {
-    flex-direction: row-reverse;
-  }
-
   &.--s-reversed {
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
   }
 
   &.--s-normal {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   @media(min-width: $container--narrow) {
     &.--m-reversed {
-      flex-direction: row-reverse;
+      flex-direction: column-reverse;
     }
 
     &.--m-normal {
-      flex-direction: row;
+      flex-direction: column;
     }
   }
 
   @media(min-width: $container) {
     &.--l-reversed {
-      flex-direction: row-reverse;
+      flex-direction: column-reverse;
     }
 
     &.--l-normal {
-      flex-direction: row;
+      flex-direction: column;
     }
   }
 }
