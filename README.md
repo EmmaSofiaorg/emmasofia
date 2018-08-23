@@ -1,5 +1,7 @@
 # EmmaSofia's styleguide
 
+(Read the documentation)[https://emmasofia.netlify.com/#/]
+
 ## Build Setup
 
 ``` bash
