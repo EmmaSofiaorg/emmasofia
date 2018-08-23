@@ -1,6 +1,6 @@
 # EmmaSofia's styleguide
 
-[Read the documentation](https://emmasofia.netlify.com/#/)
+[Read the documentation](https://emmasofia-styleguide.netlify.com/#/)
 
 ## Build Setup
 
